@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+:root{
+  --default-theme-body-background: #252525;
+  --default-theme-background: #111111;
+  --default-title-sidebar-theme-text: #FFF;
+
+  --white-theme-body-background: #fafafa;
+  --white-theme-background: #ffffff;
+  --white-title-sidebar-theme-text: #252525;
+}
+
+html, body {
+  background-color: var(--default-theme-body-background);
+  height: 100%;
+  margin: 0;
+  padding: 0;
+
+  transition: background-color 0.3s linear;
+}
+
+a{
+  color: inherit;
+  text-decoration: none;
+  background-color: transparent;
+  cursor: pointer;
+}
